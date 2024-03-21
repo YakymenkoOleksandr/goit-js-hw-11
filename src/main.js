@@ -55,7 +55,6 @@ function renderImg(images) {                        // Рендар фото в 
 
   const markupImg = images                          
     .map(image => {
-      console.log(image);
       return `<div class="blockForAllElements">
           <li>
           <a href=${image.largeImageURL} download="false">
